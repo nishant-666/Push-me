@@ -28,9 +28,9 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="card">
-          <h1 className="heading" style={{marginBottom:50}}>{this.state.advice}</h1>
+          <h1  style={{margin:50,color:"white"}}>{this.state.advice}</h1>
             
-          <Button style={{padding:5}} onClick={this.fetchAdvice} color='orange'>
+          <Button style={{padding:16}} onClick={this.fetchAdvice} color='orange'>
           <Icon name='sun' /> PUSH ME!
           </Button>
           

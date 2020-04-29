@@ -36,22 +36,7 @@
     height: 582px;
   }
   
-  .button {
-    position: relative;
-    outline: none;
-    text-decoration: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    height: 200px;
-    width: 210px;
-    opacity: 1;
-    background-color: #ffffff;
-   
-  }
+  
     
   .button span {
     color: #164ca7;
